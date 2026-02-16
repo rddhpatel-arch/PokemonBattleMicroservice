@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonBattle.Api", "PokemonBattle.Api\PokemonBattle.Api.csproj", "{0EE76F8A-C7A8-486D-A752-3F4D5397CA66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonBattle.Tests", "PokemonBattle.Tests\PokemonBattle.Tests.csproj", "{41C785F3-2EB9-4B0D-AC96-218B9988BD5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Run-PokemonBattles-Api.ps1 = Scripts\Run-PokemonBattles-Api.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EE76F8A-C7A8-486D-A752-3F4D5397CA66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE76F8A-C7A8-486D-A752-3F4D5397CA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE76F8A-C7A8-486D-A752-3F4D5397CA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE76F8A-C7A8-486D-A752-3F4D5397CA66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C785F3-2EB9-4B0D-AC96-218B9988BD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C785F3-2EB9-4B0D-AC96-218B9988BD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C785F3-2EB9-4B0D-AC96-218B9988BD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C785F3-2EB9-4B0D-AC96-218B9988BD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {258839D3-CA70-43D0-86A2-303E187CE998}
+	EndGlobalSection
+EndGlobal
